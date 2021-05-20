@@ -1,0 +1,52 @@
+body {
+  background-color: #ffff;
+}
+
+.navigation-links li {
+  display: inline;
+  cursor: pointer;
+  margin-inline: 50px;
+  text-align: center;
+}
+
+.center-title {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: rgb(247, 10, 10);
+}
+
+@media only screen and (max-width: 750px) {
+  .navigation-links li {
+    background-color: blueviolet;
+    display: block;
+    font-size: 1.5;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+  body {
+    background-color: hsl(108, 100%, 73%);
+  }
+  p {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  h1 {
+    font-size: 2.5em;
+  }
+  .navigation-links {
+    text-align: center;
+    font-size: 1.8em;
+  }
+  p {
+    color: black;
+  }
+}
